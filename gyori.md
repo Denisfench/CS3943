@@ -10,8 +10,7 @@ This proof will instead prove a stronger claim than the one above, that:
 
 To see why this implies the previous claim, we can see that orthognal polygons of 4 or 6 vertices are of unique shapes, being rectangular or in the shape of a capital letter "L" respectively. Becasue the both shapes are convex polygons, one guard is sufficient to guard each. 
 
-[](/img/1. Unique Shapes.jpg)
-
+![](/img/img1.jpg)
 
 ### Simple Facts about Orthogonal Polygons 
 By definition, orthogonal polygons are polygons whose sides are parallel to either the horizontal or the vertical axes. Therefore, the internal angles of an orthogonal polygons are of 90 degrees (**convex**) or 270 degrees (**concave**). 
