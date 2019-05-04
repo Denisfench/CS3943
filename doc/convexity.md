@@ -7,4 +7,4 @@ Each subsequent move of removing a smaller rectangle from the corner introduces 
 
 Hence, the number of concave corners is 4 less than the number of convex corners for any orthogonal polygon P. 
 
-### [Back to Groyi's Proof](/doc/gyori.md)
+### [Back to Groyi's Proof](doc/gyori.md)
