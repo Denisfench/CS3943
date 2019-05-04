@@ -41,12 +41,14 @@ Suppose that upon our cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub> out of 
 
 
 #### Scenario A: 2 Polygons
+In the case where we obtain 2 polygons upon cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub>, X<sub>1</sub>Y<sub>1</sub> only intersects with one side UV of P. There are three different relations between the side UV and the segment X<sub>1</sub>Y<sub>1</sub>. 
 
+![](/img/img5.jpg)
 
 #### Scenario B: 1 Polygons
 
 
-[Return to Index Page](/CS3943)
+### [Return to Index Page](/CS3943)
 
 
 
