@@ -11,5 +11,5 @@ In this project, we look at one variation of the problem, where the art gallery 
 
 The orthogonal art gallery thorem was first formualted and proved by Kahn, Klawe, and Kleitman in 1983 [(Kanh *et al.* 1983)](https://epubs.siam.org/doi/abs/10.1137/0604020). It states that n/4 guards are occasionally necessary and always sufficient to see the interior of an orthogonal art gallery room. 
 
-### [Groyi's Proof](/doc/gyori.md)
+### [Groyi's Proof](/docs/gyori.md)
 In 1986, Ervin Gyori derived a compact proof[(Gyori 1986)](https://epubs.siam.org/doi/10.1137/0607051). However, it is difficult to understand. This project aims at making Gyori's proof easier to understand by supplying more illustartions and using simpler languages. 
