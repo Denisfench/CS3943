@@ -15,7 +15,7 @@ To see why this implies the previous claim, we can see that orthognal polygons o
 ### Some Facts about P(Orthogonal Polygon)
 1. The internal angles of P are of 90 degrees (**convex**) or 270 degrees (**concave**). 
 2. The sides of P are alternatively horizontal and vertical, which means *n* must be even. 
-3. For P, [the number of concave vertices is 4 less than the number of convex vertices.](/docs/convexity.md)
+3. For P, [the number of concave vertices is 4 less than the number of convex vertices.](/doc/convexity.md)
 
 ### Base Case of An Inductive Proof 
 If *n* is 4 or 6, we have nothing to prove (base case). Since *n* must be even, let's assumet that *n* >= 8. 
@@ -46,7 +46,7 @@ Suppose that upon our cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub> out of 
 #### Scenario B: 1 Polygons
 
 
-[Return to Index Page](/README)
+[Return to Index Page](/bixingxie.github.io/CS3943)
 
 
 
