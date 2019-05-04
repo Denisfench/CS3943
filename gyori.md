@@ -8,14 +8,14 @@ This proof will instead prove a stronger claim than the one above, that:
 
 **if P is an orthogonal polygon of *n* vertices, then P can be partitioned into at most [n/4] orthogonal polygons of 4 or 6 vertices.** 
 
-To see why this implies the previous claim, we can see that orthognal polygons of 4 or 6 vertices are of unique shapes, being rectangular or in the shape of a capital letter "L" respectively. Becasue the both shapes are convex polygons, one guard is sufficient to guard each. 
+To see why this implies the previous claim, we can see that orthognal polygons of 4 or 6 vertices are of unique shapes, being rectangular or in the shape of a capital letter "L" respectively. Becasue both shapes are convex polygons, one guard is sufficient to guard each. 
 
 ![](/img/img1.jpg)
 
-### Simple Facts about Orthogonal Polygons 
-By definition, orthogonal polygons are polygons whose sides are parallel to either the horizontal or the vertical axes. 
-1. Therefore, the internal angles of an orthogonal polygons are of 90 degrees (**convex**) or 270 degrees (**concave**). 
-2. The sides of an orthogonal polygon are alternatively horizontal and vertical, which means *n* must be even. 
+### Some Facts about P(Orthogonal Polygon)
+1. The internal angles of P are of 90 degrees (**convex**) or 270 degrees (**concave**). 
+2. The sides of P are alternatively horizontal and vertical, which means *n* must be even. 
+3. For P, [the number of concave corners is 4 less than the number of convex corners.](/convexity.md)
 
 ### An Inductive Proof 
 If *n* is 4 or 6, we have nothing to prove (base case). Since *n* must be even, let's assumet that *n* >= 8. 
@@ -31,5 +31,7 @@ This is the case where *n* = 4k, where k is some integer greater than 1. If we t
 **n<sub>1</sub>/4 + n<sub>2</sub>/4 <= (n+2)/4 = n/4** 
 
 ![](/img/img3.jpg)
+
+
 
 
