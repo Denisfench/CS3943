@@ -46,7 +46,7 @@ Suppose that upon our cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub> out of 
 #### Scenario B: 1 Polygons
 
 
-[Return to Index Page](/bixingxie.github.io/CS3943)
+[Return to Index Page](/CS3943)
 
 
 
