@@ -10,7 +10,7 @@ Here the grey polygon has an even number of concave vertices, which suggests tha
 
 ![](/img/img7.jpg)
 
-If we cut along B, **k<sub>1</sub> + k<sub>2</sub> > k**. Therefore, the inductive hypothesis won't work. 
+If we cut along segment b, **k<sub>1</sub> + k<sub>2</sub> > k**. Therefore, the inductive hypothesis won't work. 
 
 ![](/img/img8.jpg)
 

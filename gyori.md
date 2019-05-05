@@ -53,6 +53,8 @@ Here are 3 examples, one for each relation:
 
 ### [Example 2: UV contains X<sub>1</sub>Y<sub>1</sub>](/2PolygonsEx2.md)
 
+### [Example 3: UV overlaps with X<sub>1</sub>Y<sub>1</sub>](/2PolygonsEx3.md)
+
 #### Scenario II: 1 Polygons
 
 
