@@ -49,7 +49,9 @@ In each relation above, we may cut P along the purple segment *a* or *b*. One of
 
 Here are 3 examples, one for each relation: 
 
-#### [Example 1: X<sub>1</sub>Y<sub>1</sub> contains UV](/2PolygonsEx1.md)
+### [Example 1: X<sub>1</sub>Y<sub>1</sub> contains UV](/2PolygonsEx1.md)
+
+### [Example 2: UV contains X<sub>1</sub>Y<sub>1</sub>](/2PolygonsEx2.md)
 
 #### Scenario II: 1 Polygons
 
