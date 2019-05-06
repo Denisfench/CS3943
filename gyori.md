@@ -41,7 +41,7 @@ Suppose that upon our cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub> out of 
 
 
 #### Scenario I: 2 Polygons
-In the case where we obtain 2 polygons upon cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub>, X<sub>1</sub>Y<sub>1</sub> only intersects with one side UV of P. There are three different relations between the side UV and the segment X<sub>1</sub>Y<sub>1</sub>. 
+In the case where we obtain 2 polygons upon cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub>, X<sub>1</sub>Y<sub>1</sub> only intersects with one side UV of P. There are 3 different relations between the side UV and the segment X<sub>1</sub>Y<sub>1</sub>. 
 
 ![](/img/img5.jpg)
 
@@ -56,6 +56,14 @@ Here are 3 examples, one for each relation:
 ### [Example 3: UV overlaps with X<sub>1</sub>Y<sub>1</sub>](/2PolygonsEx3.md)
 
 #### Scenario II: 1 Polygons
+
+In the case where we obtain only 1 polygon upon cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub>, XX<sub>1</sub> or YY<sub>1</sub> must be a side of P. Here we assume that XX<sub>1</sub> is a side of P and X<sub>1</sub> = U. 
+
+There are 2 relations:
+
+When X<sub>1</sub>Y<sub>1</sub> contains the side X<sub>1</sub>V and YY<sub>1</sub> contains the side YZ of P, we cut P along the segments a and b obtaining P<sub>1</sub> (the L-shaped one) of 6 vertices and P<sub>2</sub> (the rest) of 4k-2 vertices. It is easy to see why P<sub>2</sub> must have 4k-2 vertices: the cutting reduces 5 green vertices from it and adds 1 vertex to it. Therefore, 4k+2-5+1 = 4k-2. 4k-2 = 4(k-1) + 2. We are done by inductive hypothesis. 
+
+![](/img/img15.jpg)
 
 
 ### [Return to Index Page](/CS3943)
