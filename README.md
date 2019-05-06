@@ -9,7 +9,7 @@ Steve Fisk later derived another sufficiency proof. We will include it here sinc
 
 In this project, we look at one variation of the problem, where the art gallery is an orthogonal polygon. An orthogonal polygon is one whose edges are aligned with either horizontal or vertical axes. The edges alternate between horizontal and vertical, and always meet orthogonally, with internal angles of either 90 degrees or 270 degrees. Orthogonal art gallery problem is especially interesting and practical because in real life a lot of galleries are of the shape of orthogonal polygons. For example, below is a floor plan of MoMA, which is an orthogonal polygon. 
 
-![](/img/img16.jpg)
+![](/img/img16.JPG)
 
 The orthogonal art gallery theorem was first formulated and proved by Kahn, Klawe, and Kleitman in 1983 [(Kanh *et al.* 1983)](https://epubs.siam.org/doi/abs/10.1137/0604020). It states that n/4 guards are occasionally necessary and always sufficient to see the interior of an orthogonal art gallery room.
 
