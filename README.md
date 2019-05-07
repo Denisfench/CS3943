@@ -19,7 +19,7 @@ Steve Fisk later derived another sufficiency proof. We will include it here sinc
 
 The orthogonal art gallery theorem was first formulated and proved by **Kahn, Klawe, and Kleitman** in 1983 [(Kanh *et al.* 1983)](https://epubs.siam.org/doi/abs/10.1137/0604020). It states that **n/4 guards are occasionally necessary and always sufficient to see the interior of an orthogonal art gallery room.**
 
-![](/img/img18.JPG)
+![](/img/img18.jpg)
 
 ### [Groyi's Proof](/gyori.md)
 In 1986, Ervin Gyori derived a more compact proof [(Gyori 1986)](https://epubs.siam.org/doi/10.1137/0607051). However, it still remains complex and difficult to grasp. Therefore, this project aims at making it easier to understand by supplying more illustrations and using simpler languages. 
