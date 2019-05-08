@@ -8,7 +8,7 @@ This proof will instead prove a stronger claim than the one above, that:
 
 **if P is an orthogonal polygon of *n* vertices, then P can be partitioned into at most [n/4] orthogonal polygons of 4 or 6 vertices.** 
 
-To see why this implies the previous claim, we can see that orthogonal polygons of 4 or 6 vertices are of unique shapes, being rectangular or in the shape of a capital letter "L" respectively. Because both shapes are convex polygons, one guard is sufficient to guard each. 
+To see why this implies the previous claim, we can see that orthogonal polygons of 4 or 6 vertices are of unique shapes, being rectangular or in the shape of a capital letter "L" respectively. It is easy to see that one guard is sufficient to guard each. 
 
 ![](/img/img1.jpg)
 
