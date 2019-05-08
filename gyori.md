@@ -61,9 +61,23 @@ In the case where we obtain only 1 polygon upon cutting the rectangle XYX<sub>1<
 
 There are 2 relations:
 
-When X<sub>1</sub>Y<sub>1</sub> contains the side X<sub>1</sub>V and YY<sub>1</sub> contains the side YZ of P, we cut P along the segments a and b obtaining P<sub>1</sub> (the L-shaped one) of 6 vertices and P<sub>2</sub> (the rest) of 4k-2 vertices. It is easy to see why P<sub>2</sub> must have 4k-2 vertices: the cutting reduces 5 green vertices from it and adds 1 vertex to it. Therefore, 4k+2-5+1 = 4k-2. 4k-2 = 4(k-1) + 2. We are done by inductive hypothesis. 
+**Relation 1:** When X<sub>1</sub>Y<sub>1</sub> contains the side X<sub>1</sub>V and YY<sub>1</sub> contains the side YZ of P, we cut P along the segments a and b obtaining P<sub>1</sub> (the L-shaped one) of 6 vertices and P<sub>2</sub> (the rest) of 4k-2 vertices. It is easy to see why P<sub>2</sub> must have 4k-2 vertices: the cutting reduces 5 green vertices from it and adds 1 vertex to it. Therefore, 4k+2-5+1 = 4k-2. 4k-2 = 4(k-1) + 2. We are done by inductive hypothesis. 
 
 ![](/img/img15.jpg)
+
+**Relation 2a:** When X<sub>1</sub>Y<sub>1</sub> is contained in the side X<sub>1</sub>V and YY<sub>1</sub> contains the side YZ of P, we cut off a L shaped polygon by cutting vertically along the segment a. The remaining must be of 4k-2 vertices. The reasoning is exactly the same as the relation 1. 
+
+![](/img/img19.jpg)
+
+Therefore, we are done by inductive hypothesis unless the cut slices P into 3 or more pieces. 
+
+**Relation 2b:** As shown in the figure below, if we were to cut vertically along the pink line like we used to do for relation 2a, we would slice the polygon P into 3 pieces (the red, the grey, and the green). Therefore, we would need to perform a horizontal cut either along segment a or along segment b. One of these 2 possible cuts will cut P into polygons P<sub>1</sub> and P<sub>2</sub> of 4k+2 and 4k+2 vertices, and k<sub>1</sub> + k<sub>2</sub> = k. 
+
+The reason is really similar, if not the same as, the reasoning of  **Case 3: Scenario 1**. 
+
+Therefore, we are done by inductive hypothesis. 
+
+![](/img/img20.jpg)
 
 ### [A walkthrough when n = 14](/walkthrough.md)
 
