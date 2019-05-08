@@ -8,12 +8,4 @@
 
 ![](/img/wt/0004.jpg)
 
-![](/img/wt/0005.jpg)
-
-![](/img/wt/0006.jpg)
-
-![](/img/wt/0007.jpg)
-
-![](/img/wt/0008.jpg)
-
 ### [Back to Groyi's Proof](/gyori.md)
