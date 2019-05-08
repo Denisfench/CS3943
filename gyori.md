@@ -65,11 +65,9 @@ When X<sub>1</sub>Y<sub>1</sub> contains the side X<sub>1</sub>V and YY<sub>1</s
 
 ![](/img/img15.jpg)
 
-### [A walkthrough when n = 14](/walkthrough)
+### [A walkthrough when n = 14](/walkthrough.md)
 
 ### [Return to Index Page](/CS3943)
-
-### 
 
 
 
