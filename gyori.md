@@ -4,7 +4,7 @@
 *[n/4]* guards are sometimes necessary, but always sufficient to guard the interior of an *n*-wall **orthogonal** art gallery. 
 
 ### A Stronger Claim 
-This proof will instead prove a stronger claim than the one above, that:    
+We will instead prove a stronger claim than the one above, that:    
 
 **if P is an orthogonal polygon of *n* vertices, then P can be partitioned into at most [n/4] orthogonal polygons of 4 or 6 vertices.** 
 
@@ -21,7 +21,7 @@ To see why this implies the previous claim, we can see that orthogonal polygons 
 If *n* is 4 or 6, we have nothing to prove (base case). Since *n* must be even, let's assume that *n* >= 8. 
 
 ### Case 1 (Easy) 
-There are two vertices of P that can be connected by a horizontal or vertical segment without crossing the boundaries of P. If this is the case, we can cut P along that very segment and we will obtain 2 new polygons P<sub>1</sub> and P<sub>2</sub> of n<sub>1</sub> and n<sub>2</sub> vertices, respectively, such that **n<sub>1</sub> + n<sub>2</sub> = n**. We are done by inductive hypothesis. 
+There are two vertices of P that can be connected by a horizontal or vertical segment without crossing the boundary of P. If this is the case, we can cut P along that very segment and we will obtain 2 new polygons P<sub>1</sub> and P<sub>2</sub> of n<sub>1</sub> and n<sub>2</sub> vertices, respectively, such that **n<sub>1</sub> + n<sub>2</sub> = n**. We are done by inductive hypothesis. 
 
 ![](/img/img2.jpg)
 
@@ -33,7 +33,7 @@ This is the case where *n* = 4k, where k is some integer > 1. If we take a conca
 ![](/img/img3.jpg)
 
 ### Case 3 (Hard) 
-We are left with the case where *n* = 4k+2, where k is some integer > 1. According to the fact 3, P must have **2k+3** convex vertices and **2k-1** concave vertices. Therefore, there exist two neighboring convex vertice in P which we can call X and Y. If we move the side XY orthogonally through the interior of P as far as P's boundary, let X<sub>1</sub> and Y<sub>1</sub> denote the images of X and Y, respectively, under the translation. 
+We are left with the case where *n* = 4k+2, where k is some integer > 1. According to the fact 3, P must have **2k+3** convex vertice and **2k-1** concave vertice. Therefore, there exist two neighboring convex vertice in P which we can call X and Y. If we move the side XY orthogonally through the interior of P as far as P's boundary, let X<sub>1</sub> and Y<sub>1</sub> denote the images of X and Y, respectively, under the translation. 
 
 Suppose that upon our cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub> out of P, we should obtain either 1 or 2 polygons. The only scenario whereupon our cutting we will obtain more than 2 polygons is shown below. However, in this scenario, a horizontal segment can be connected between A and B without crossing the boundary of P, which means it is in **Case 1**. Because we are in **Case 3**, we cannot find such A and B. As proved by contradiction, we will obtain either 1 or 2 polygons upon cutting the rectangle XYX<sub>1</sub>Y<sub>1</sub>. 
 
@@ -45,7 +45,7 @@ In the case where we obtain 2 polygons upon cutting the rectangle XYX<sub>1</sub
 
 ![](/img/img5.jpg)
 
-In each relation above, we may cut P along the purple segment *a* or *b*. One of the cut will yield 2 new polygons P<sub>1</sub> and P<sub>2</sub> of n<sub>1</sub> and n<sub>2</sub> vertices, respectively, such that **n<sub>1</sub> = 4k<sub>1</sub> + 2, n<sub>2</sub> = 4k<sub>2</sub> + 2, and k = k<sub>1</sub> + k<sub>2</sub>**. Therefore we are done by the inductive hypothesis. 
+In each relation above, we may cut P along the purple segment *a* or *b*. One of the cut will yield 2 new polygons P<sub>1</sub> and P<sub>2</sub> of n<sub>1</sub> and n<sub>2</sub> vertice, respectively, such that **n<sub>1</sub> = 4k<sub>1</sub> + 2, n<sub>2</sub> = 4k<sub>2</sub> + 2, and k = k<sub>1</sub> + k<sub>2</sub>**. Therefore we are done by the inductive hypothesis. 
 
 Here are 3 examples, one for each relation: 
 
@@ -61,17 +61,17 @@ In the case where we obtain only 1 polygon upon cutting the rectangle XYX<sub>1<
 
 There are 2 relations:
 
-**Relation 1:** When X<sub>1</sub>Y<sub>1</sub> contains the side X<sub>1</sub>V and YY<sub>1</sub> contains the side YZ of P, we cut P along the segments a and b obtaining P<sub>1</sub> (the L-shaped one) of 6 vertices and P<sub>2</sub> (the rest) of 4k-2 vertices. It is easy to see why P<sub>2</sub> must have 4k-2 vertices: the cutting reduces 5 green vertices from it and adds 1 vertex to it. Therefore, 4k+2-5+1 = 4k-2. 4k-2 = 4(k-1) + 2. We are done by inductive hypothesis. 
+**Relation 1:** When X<sub>1</sub>Y<sub>1</sub> contains the side X<sub>1</sub>V and YY<sub>1</sub> contains the side YZ of P, we cut P along the segments a and b obtaining P<sub>1</sub> (the L-shaped one) of 6 vertice and P<sub>2</sub> (the rest) of 4k-2 vertice. It is easy to see why P<sub>2</sub> must have 4k-2 vertice: the cutting reduces 5 green vertice from it and adds 1 vertex to it. Therefore, 4k+2-5+1 = 4k-2. 4k-2 = 4(k-1) + 2. We are done by inductive hypothesis. 
 
 ![](/img/img15.jpg)
 
-**Relation 2a:** When X<sub>1</sub>Y<sub>1</sub> is contained in the side X<sub>1</sub>V and YY<sub>1</sub> contains the side YZ of P, we cut off a L shaped polygon by cutting vertically along the segment a. The remaining must be of 4k-2 vertices. The reasoning is exactly the same as the relation 1. 
+**Relation 2a:** When X<sub>1</sub>Y<sub>1</sub> is contained in the side X<sub>1</sub>V and YY<sub>1</sub> contains the side YZ of P, we cut off a L shaped polygon by cutting vertically along the segment a. The remaining must be of 4k-2 vertice. The reasoning is exactly the same as the relation 1. 
 
 ![](/img/img19.jpg)
 
 Therefore, we are done by inductive hypothesis unless the cut slices P into 3 or more pieces. 
 
-**Relation 2b:** As shown in the figure below, if we were to cut vertically along the pink line like we used to do for relation 2a, we would slice the polygon P into 3 pieces (the red, the grey, and the green). Therefore, we would need to perform a horizontal cut either along segment a or along segment b. One of these 2 possible cuts will cut P into polygons P<sub>1</sub> and P<sub>2</sub> of 4k+2 and 4k+2 vertices, and k<sub>1</sub> + k<sub>2</sub> = k. 
+**Relation 2b:** As shown in the figure below, if we were to cut vertically along the pink line like we used to do for relation 2a, we would slice the polygon P into 3 pieces (the red, the grey, and the green). Therefore, we would need to perform a horizontal cut either along segment a or along segment b. One of these 2 possible cuts will cut P into polygons P<sub>1</sub> and P<sub>2</sub> of 4k+2 and 4k+2 vertice, and k<sub>1</sub> + k<sub>2</sub> = k. 
 
 The reason is really similar, if not the same as, the reasoning of  **Case 3: Scenario 1**. 
 
