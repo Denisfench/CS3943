@@ -23,3 +23,11 @@ The orthogonal art gallery theorem was first formulated and proved by **Kahn, Kl
 
 ## [Groyi's Proof (Click Here)](/gyori.md)
 In 1986, Ervin Gyori derived a more compact proof [(Gyori 1986)](https://epubs.siam.org/doi/10.1137/0607051). However, it still remains complex and difficult to grasp. Therefore, this project aims at making it easier to understand by supplying more illustrations and using simpler language.  
+
+## Author
+
+* **Bixing Xie** - (https://github.com/bixingxie)
+* **Chen Zhou** - (https://github.com/ChenZ0912)
+
+## Acknowledgement and Credits 
+* Thanks to the guidence of Professor **Greg Aloupis** - (https://engineering.nyu.edu/faculty/greg-aloupis) 
